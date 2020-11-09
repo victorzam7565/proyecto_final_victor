@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portafolio John Snow</title>
+     <link rel="stylesheet" href="./css/estilo.css">
+     <!-- Font Awesome-->
+     <script src="https://kit.fontawesome.com/0d04c5a105.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <section id="inicio">
+          <nav class="navegacion">
+               <ul class="lista">
+                    <li class="navItem"><a href="#sobreMi">Sobre Mi</a></li>
+                    <li class="navItem"><a href="#proyectos">Proyectos</a></li>
+                    <li class="navItem"><a href="#contacto">Contacto</a></li>
+               </ul>
+          </nav>
+          <div id="portada">
+               <img class="portadaImagen" src="./img/avatar.png" alt="Avatar">
+               <h2>John Snow</h2>
+               <h3>Frontend Developer</h3>
+               <a id="btnContacto" href="#contacto">Contactame!</a>
+          </div>
+     </section>
+     <section id="sobreMi">
+          <h2>Sobre Mi</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit provident quis libero repellendus deserunt ab tempora eligendi rerum saepe consectetur ipsa, consequatur debitis error. Mollitia nesciunt nobis autem dolorum aliquam!</p>
+     </section>
+     <section id="proyectos">
+          <div class="proyectoTitulo">
+               <h2>Proyectos</h2>
+               <h3>Últimos Trabajos</h3>
+          </div>
+          <div class="proyectosImg">
+               <div class="caja">
+                    <img src="./img/img1.jpg" alt="img1">
+                    <div class="capa">
+                         <h2>Proyecto X</h2>
+                    </div>
+               </div>
+               <div class="caja">
+                    <img src="./img/img2.jpg" alt="img2">
+                    <div class="capa">
+                         <h2>Proyecto Y</h2>
+                    </div>
+               </div>
+               <div class="caja">
+                    <img src="./img/img3.jpg" alt="img3">     
+                    <div class="capa">
+                         <h2>Proyecto Z</h2>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <section id="contacto">
+          <div class="contactoTitulos">
+               <h2 class="contactoTitulo">Contacto</h2>
+               <h3 class="contactoSubtitulo">Escríbeme, Trabajemos Juntos</h3>
+          </div>
+          <form>
+               <div class="filaSuperior">
+                    <input type="text" id="nombre" placeholder="Nombre">
+                    <input type="email" id="email" placeholder="ejemplo@correo.com">
+                    <input type="text" id="asunto" placeholder="Asunto">
+               </div>
+               <div class="filaInferior">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="1" placeholder="Mensaje"></textarea>
+               </div>
+               <input id="btnEnviar" type="submit">
+          </form>
+     </section>
+     <footer>
+          <div class="titulosFooter">
+               <h2>John Snow</h2>
+               <h3>Frontend Developer</h3>
+          </div>
+          <div class="iconosFooter">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+     </footer>
+</body>
+</html>
