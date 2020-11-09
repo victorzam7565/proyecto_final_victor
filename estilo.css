@@ -17,7 +17,7 @@ h3{
 #inicio{
      height: 70vh;
      widows: 100%;
-     background-image: url("../img/wallpaper.jpg");
+     background-image: url("../img/.googleapis.jpg");
      background-size: cover;
 }
 /* Navegacion */
@@ -73,8 +73,8 @@ h3{
      color: #fff;
      border-radius: 20px;
      display: flex;
-     justify-content: center;
-     align-items: center;
+     justify-content: horizontal;
+     align-items: vertical;
      cursor: pointer;
 }
 /* Sobre Mi */
